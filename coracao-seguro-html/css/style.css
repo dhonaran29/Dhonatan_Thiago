@@ -508,9 +508,50 @@ p {
   display: grid;
   place-items: center;
  }
- .botao-de-entrada{
-  height:10vh;
+ .botao-d-entrada{
+  height:30px;
   margin:0;
   display: grid;
   place-items: center;
+ }
+ 
+.botao-senha{
+ height:10vh;
+ margin:0;
+ display: grid;
+ place-items: center;
+
+
+ 
+/* Estilos do Alerta de Atualização */
+.alerta-container {
+  background-color: #fff3cd; /* Amarelo suave de aviso */
+  border-left: 6px solid #ffc107; /* Barra lateral amarela escura */
+  color: #856404; /* Texto em tom marrom escuro para contraste */
+  padding: 15px 20px;
+  margin: 20px auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.alerta-icone {
+  font-size: 24px;
+}
+
+.alerta-texto {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.alerta-data {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
  }

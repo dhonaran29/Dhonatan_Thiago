@@ -31,7 +31,7 @@ function configurarAnalise() {
 
     if (texto.length < 10) {
       if (feedback) {
-        feedback.textContent = "Cole uma mensagem um pouco maior para continuar.";
+        feedback.textContent = "escreva mais de um sintomas, para prosseguirmos.";
       }
       campoMensagem.focus();
       return;
@@ -57,13 +57,13 @@ function configurarPerfil() {
 
     if (marcados >= 3) {
       resultado.textContent =
-        "Vários sinais de atenção foram marcados. Converse com alguém de confiança antes de enviar dinheiro, documentos ou dados pessoais.";
+        "Vários sinais de atenção foram marcados. Mandando mensagem pra suas filhas(o) e pro seu médico.";
     } else if (marcados >= 1) {
       resultado.textContent =
-        "Há sinais que merecem atenção. Procure confirmar a identidade da pessoa por chamada de vídeo e evite decisões com pressa.";
+        "Vários sinais de atenção foram marcados. Mandando mensagem pra suas filhas(o) e pro seu médico.";
     } else {
       resultado.textContent =
-        "Nenhum dos sinais principais foi marcado. Continue observando com calma e proteja seus dados pessoais.";
+        "Nenhum dos sinais principais foi marcado.";
     }
   });
 }

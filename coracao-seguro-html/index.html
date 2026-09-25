@@ -3,33 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coração Seguro - Início</title>
+  <title>Aplicativo de Glicemia - Início</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+      <!-- Bloco do Alerta de Atualização -->
+      <div class="alerta-container">
+        <span class="alerta-icone">🚨</span>
+        <p class="alerta-texto">
+            <strong>Atenção:</strong> Uma nova atualização importante do sistema está agendada para o dia <span class="alerta-data">30 de setembro</span>. Certifique-se de salvar seus dados antes deste período.
+        </p>
+    </div>
 
   <section class="splash" id="splash-apresentacao" aria-label="Apresentação do aplicativo">
     <div class="splash-caixa">
       <header class="splash-marca">
         <small>PROJETO</small>
-        <h1>Coração Seguro</h1>
+        <h1>Aplicativo de Glicemia</h1>
       </header>
 
       <img
         class="imagem-centralizada"
-        src="assets/capa-coracao-seguro.png"
-        alt="Mulher idosa sentada em uma mesa usando um celular"
+        src="https://adj.org.br/wp-content/uploads/2022/11/exame-diag.jpg"
+        alt="Um idoso(a) verifiando sua glicemia usando um celular"
         id="imagem-capa"
       >
 
-      <h2 class="splash-titulo">Sua tranquilidade é o nosso compromisso.</h2>
+      <h2 class="splash-titulo">Sua Saúde é o nosso compromisso.</h2>
 
       <p class="splash-descricao">
-        Muitas de nós encontramos pessoas carinhosas na internet.
-        Mas, às vezes, histórias bonitas demais escondem intenções perigosas.
-        Este projeto ajuda você a identificar sinais suspeitos.
+        Sua saúde e qualidade de vida com o controle da sua glicemia é nosso compromisso 
+        sempre prezando a saúde e o bem estar dos nossos parceiros(a).
       </p>
-
+ 
       <button class="botao-primario" id="botao-comecar-protecao" type="button">
         ♢ Começar Proteção
       </button>
@@ -61,8 +67,8 @@
             <article class="cartao">
               <span class="icone-circular">▣</span>
               <div>
-                <h3>Analisar uma Mensagem</h3>
-                <p>Cole a conversa suspeita para descobrir se é um golpe de impostor.</p>
+                <h3>Analisar glicemia com seus sintomas</h3>
+                <p>escreva alguns sintomas para verificarmos.</p>
               </div>
             </article>
           </a>
@@ -71,8 +77,8 @@
             <article class="cartao">
               <span class="icone-circular">♧</span>
               <div>
-                <h3>Verificar Perfil dele</h3>
-                <p>Responda a perguntas rápidas sobre as promessas e comportamentos dele.</p>
+                <h3>Diagnóstico da pessoa</h3>
+                <p>selecione alguns sintomas.</p>
               </div>
             </article>
           </a>
@@ -80,17 +86,17 @@
       </section>
 
       <section aria-labelledby="titulo-historias">
-        <h2 id="titulo-historias">Histórias comuns de golpe</h2>
+        <h2 id="titulo-historias">Ultimo Valor da glicemia</h2>
 
         <div class="historias">
           <article class="historia-card" id="historia-engenheiro">
-            <h3>⚠ O Falso Engenheiro de Petróleo</h3>
-            <p>Diz trabalhar em alto-mar, declara amor rápido e pede ajuda para “liberar equipamentos”.</p>
+            <h3>150 na media</h3>
+            <p>sua insulina foi injetada.</p>
           </article>
 
           <article class="historia-card" id="historia-militar">
-            <h3>⚠ O Médico Militar Estrangeiro</h3>
-            <p>Alega estar em missão de paz. Pede dinheiro para taxas de viagem ou envio de caixas secretas.</p>
+            <h3>Acompanhamento do médico</h3>
+            <p>proxima consulta levar seus exames.</p>
           </article>
         </div>
       </section>
@@ -113,6 +119,10 @@
   <a class="link-navegacao " href="ajuda.html" id="nav-ajuda">
     <span class="icone-nav">ⓘ</span>
     <span>Ajuda</span>
+  </a>
+  <a class="botao-d-entrada" href="login.html" id="botao-comecar1-protecao">
+    <span class="icone-nav">♢</span>
+    <span>login</span>
   </a>
 </nav>
 
